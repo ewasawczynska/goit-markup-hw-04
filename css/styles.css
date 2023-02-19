@@ -327,3 +327,7 @@ header {
 .title-list-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+
+.header-icons {
+  fill: var(--light-grey);
+}
