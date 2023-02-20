@@ -94,8 +94,9 @@ body {
 }
 
 .main-section {
-  background-image: url("../images/background-image.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4));
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+    url("../images/background-image.jpg");
+
   background-color: var(--dark-grey);
   background-repeat: no-repeat;
   background-size: contain;
@@ -337,4 +338,21 @@ header {
 
 .header-icons {
   margin-right: 10px;
+}
+
+.data {
+  margin-right: 70px;
+}
+.footer-section {
+  display: flex;
+  align-items: baseline;
+}
+
+.sm-text {
+  color: var(--mainandaddress);
+  font-weight: 700;
+}
+
+.sm-icons {
+  fill: var(--mainandaddress);
 }
