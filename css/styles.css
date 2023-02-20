@@ -83,16 +83,18 @@ body {
   line-height: 1.2;
   margin-left: 50px;
   letter-spacing: 0.02em;
+  fill: var(--light-grey);
 }
 
 .contact:focus,
 .contact:active,
 .contact:hover {
   color: var(--highlights);
+  fill: var(--highlights);
 }
 
 .main-section {
-  background-image: url(".goit-markup-hw-04/images/background-image.jpg");
+  background-image: url("../images/background-image.jpg");
   background-color: var(--dark-grey);
   display: flex;
   flex-direction: column;
@@ -329,5 +331,5 @@ header {
 }
 
 .header-icons {
-  fill: var(--light-grey);
+  margin-right: 10px;
 }
