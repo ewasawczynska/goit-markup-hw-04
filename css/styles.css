@@ -94,7 +94,11 @@ body {
 }
 
 .main-section {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../images/background-image.jpg");
 
   background-color: var(--dark-grey);
@@ -351,8 +355,10 @@ header {
 .sm-text {
   color: var(--mainandaddress);
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .sm-icons {
   fill: var(--mainandaddress);
+  margin-right: 10px;
 }
