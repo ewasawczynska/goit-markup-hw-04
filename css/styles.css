@@ -247,6 +247,7 @@ body {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .portfolio-title {
@@ -357,7 +358,7 @@ header {
   margin-bottom: 20px;
 }
 
-.sm-icons {
+.sm-icons-panel {
   fill: var(--mainandaddress);
   display: flex;
   gap: 10px;
@@ -417,4 +418,29 @@ header {
 .customer-icons:focus {
   border-color: var(--highlights);
   fill: var(--highlights);
+}
+
+.team-sm {
+  display: flex;
+  gap: 10px;
+}
+
+.team-sm-icon-frame {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  flex-basis: calc((100% - 30px) / 4);
+}
+.team-sm-icons {
+  fill: #afb1b8;
+}
+
+.team-sm-icon-frame:hover,
+.team-sm-icon-frame:active,
+.team-sm-icon-frame:focus,
+.team-sm-icons:hover,
+.team-sm-icons:active,
+.team-sm-icons:focus {
+  background-color: var(--highlights);
+  fill: var(--mainandaddress);
 }
