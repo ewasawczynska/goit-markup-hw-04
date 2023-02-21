@@ -423,24 +423,26 @@ header {
 .team-sm {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .team-sm-icon-frame {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  flex-basis: calc((100% - 30px) / 4);
+  padding: 11px;
 }
+
 .team-sm-icons {
   fill: #afb1b8;
 }
 
-.team-sm-icon-frame:hover,
-.team-sm-icon-frame:active,
-.team-sm-icon-frame:focus,
 .team-sm-icons:hover,
 .team-sm-icons:active,
-.team-sm-icons:focus {
+.team-sm-icons:focus,
+.team-sm-icon-frame:hover,
+.team-sm-icon-frame:active,
+.team-sm-icon-frame:focus {
   background-color: var(--highlights);
   fill: var(--mainandaddress);
 }
