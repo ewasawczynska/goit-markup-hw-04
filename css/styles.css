@@ -437,12 +437,8 @@ header {
   fill: #afb1b8;
 }
 
-.team-sm-icons:hover,
-.team-sm-icons:active,
-.team-sm-icons:focus,
-.team-sm-icon-frame:hover,
-.team-sm-icon-frame:active,
-.team-sm-icon-frame:focus {
+.team-sm-icon-frame:hover .team-sm-icons,
+.team-sm-icon-frame:focus .team-sm-icons {
   background-color: var(--highlights);
   fill: var(--mainandaddress);
 }
